@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.teammanage.teams.dao.TeamDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.teammanage.teams.entity.TeamEntity" id="teamMap">
+        <result property="teamId" column="team_id"/>
+        <result property="teamName" column="team_name"/>
+        <result property="teamIcon" column="team_icon"/>
+        <result property="teamSupport" column="team_support"/>
+        <result property="teamInfo" column="team_info"/>
+    </resultMap>
+
+
+</mapper>
